@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oche Ella · Cybersecurity Analyst</title>
+  <meta name="description" content="Portfolio landing page for Oche Ella, Cybersecurity Analyst." />
+  <meta property="og:title" content="Oche Ella · Cybersecurity Analyst" />
+  <meta property="og:description" content="Cybersecurity Analyst · SIEM · Threat Detection · Incident Response" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="profile.jpg" />
+  <meta name="theme-color" content="#0d1117" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0d1117;--card:#161b22;--text:#c9d1d9;--muted:#8b949e;--accent:#2f81f7;--tag:#30363d;
+      --radius:16px;--shadow:0 10px 30px rgba(0,0,0,.3)
+    }
+    *{box-sizing:border-box} html,body{height:100%;margin:0}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    .container{max-width:980px;margin:40px auto;padding:0 20px}
+    .card{background:var(--card);border:1px solid #30363d;border-radius:var(--radius);box-shadow:var(--shadow);padding:28px;margin-bottom:22px}
+    .hero{display:grid;grid-template-columns:240px 1fr;gap:24px;align-items:center}
+    .avatar{width:240px;height:240px;object-fit:cover;border-radius:18px;border:1px solid #30363d}
+    .hero h1{font-size:2.25rem;margin:0 0 6px}
+    .subtitle{color:var(--muted);margin:0 0 18px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:10px 16px;border-radius:10px;border:1px solid #30363d;text-decoration:none;color:var(--text);background:transparent;transition:transform .06s ease,background .2s ease,border .2s ease}
+    .btn:hover{transform:translateY(-1px);border-color:var(--accent)}
+    .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+    .about h2,.contact h2{margin-top:0}
+    .tags{list-style:none;padding:0;margin:16px 0 0;display:flex;flex-wrap:wrap;gap:10px}
+    .tags li{background:var(--tag);border:1px solid #30363d;padding:6px 12px;border-radius:999px;font-size:.9rem;color:var(--text)}
+    .footer{text-align:center;color:var(--muted);font-size:.9rem}
+    @media (max-width:700px){.hero{grid-template-columns:1fr;text-align:center}.hero .actions{justify-content:center}.avatar{margin:0 auto}}
+    @media (prefers-color-scheme:light){
+      :root{--bg:#f6f8fa;--card:#fff;--text:#1f2328;--muted:#57606a;--accent:#0969da;--tag:#f0f3f6}
+      .card,.avatar,.btn{border-color:#d0d7de}
+    }
+  </style>
+  <link rel="icon" href="profile.jpg" />
+</head>
+<body>
+  <main class="container">
+    <header class="card hero">
+      <img class="avatar" src="profile.jpg" alt="Oche Ella headshot" width="240" height="240" />
+      <div class="hero-text">
+        <h1>Oche Ella</h1>
+        <p class="subtitle">Cybersecurity Analyst · Threat Detection · Incident Response</p>
+        <div class="actions">
+          <a class="btn primary" href="https://www.linkedin.com/in/oche-ella-126959376?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener">Connect on LinkedIn</a>
+          <a class="btn" href="#contact">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="card about" id="about">
+      <h2>About</h2>
+      <p>
+        I am a results-driven Cybersecurity Analyst with experience in safeguarding critical systems, detecting threats,
+        and improving security operations. Skilled in SIEM tools, threat detection, and incident response, I leverage
+        technologies like Splunk, Wireshark, Nmap, and Python to protect sensitive data and reduce risk. Passionate about
+        cybersecurity, I enjoy analyzing vulnerabilities, hunting threats, and building resilient defenses that help
+        organizations stay secure in an evolving digital landscape.
+      </p>
+      <ul class="tags">
+        <li>Cybersecurity Analyst</li><li>Information Security</li><li>Threat Detection</li><li>Risk Management</li>
+        <li>Cybersecurity Enthusiast</li><li>SIEM</li><li>Splunk</li><li>Wireshark</li><li>Nmap</li><li>Python</li><li>Firewalls</li>
+      </ul>
+    </section>
+
+    <section class="card contact" id="contact">
+      <h2>Contact</h2>
+      <p>If you'd like to get in touch, the fastest way is via LinkedIn.</p>
+      <p><a class="btn primary" href="https://www.linkedin.com/in/oche-ella-126959376?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener">Message me on LinkedIn</a></p>
+    </section>
+
+    <footer class="footer">
+      <p>© Oche Ella · Built with ❤️ and GitHub Pages</p>
+    </footer>
+  </main>
+</body>
+</html>
